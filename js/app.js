@@ -28,7 +28,7 @@ $(function () {
 
       await setQuiz(api_url);
 
-      console.log(quizzes);
+      // console.log(quizzes);
 
       let createQuiz = function (quizNum) {
          let quizAnswers = [];
@@ -134,8 +134,8 @@ $(function () {
             let selectedAnswer = $(".quiz__check:checked").siblings(0).text();
             if (correctAnswer === selectedAnswer) scores += 1;
 
-            console.log(correctAnswer);
-            console.log(selectedAnswer);
+            // console.log(correctAnswer);
+            // console.log(selectedAnswer);
 
             createQuiz(c);
          } else {
