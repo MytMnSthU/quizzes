@@ -104,7 +104,7 @@ $(function () {
          $("#main").html(`
             <div class="container">
                <div class="col-md-4 mx-auto text-center py-5 px-3 py-sm-1">
-                  <img src="../img/trophy.gif" class="img-fluid" />
+                  <img src="./img/trophy.gif" class="img-fluid" />
                   <h2 class="fs-4 fw-bold">Congrats</h2>
                   <h1 class="fs1 fw-bold text-success">${(scores/10)*100}% Score</h1>
                   <h4 class="fs-6 fw-normal">Quiz completed successfully</h4>
